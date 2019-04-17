@@ -1,145 +1,145 @@
-{
+﻿{
   "semantics": [
     {
-      "label": "Media",
+      "label": "Đa phương tiện",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
-        },
-        {
-          "label": "Disable image zooming"
+          "label": "Loại",
+          "description": "Đa phương tiện tùy chọn để hiển thị phía trên câu hỏi."
         }
       ]
     },
     {
-      "label": "Question"
+      "label": "Câu hỏi"
     },
     {
-      "label": "Correct answer",
+      "label": "Câu trả lời đúng",
       "options": [
         {
-          "label": "True"
+          "label": "Đúng"
         },
         {
-          "label": "False"
+          "label": "Sai"
         }
       ]
     },
     {
-      "label": "User interface translations for True/False Questions",
+      "label": "Bản dịch giao diện người dùng cho câu hỏi đúng/sai",
       "fields": [
         {
-          "label": "Label for true button",
-          "default": "True"
+          "label": "Nhãn cho nút đúng",
+          "default": "Đúng"
         },
         {
-          "label": "Label for false button",
-          "default": "False"
+          "label": "Nhãn cho nút sai",
+          "default": "Sai"
         },
         {
-          "label": "Feedback text",
-          "default": "You got @score of @total points",
-          "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total possible points'"
+          "label": "Văn bản phản hồi",
+          "default": "Bạn có @score của @total điểm",
+          "description": "Văn bản phản hồi, các biến có sẵn :@score và @total. Ví dụ: 'Bạn có @score của @total điểm có thể' "
         },
         {
-          "label": "Text for \"Check\" button",
-          "default": "Check"
+          "label": "Văn bản cho nút \"Kiểm tra\"",
+          "default": "Kiểm tra"
         },
         {
-          "label": "Text for \"Show solution\" button",
-          "default": "Show solution"
+          "label": "Văn bản cho \"Nút hiển thị lời giải\"",
+          "default": "Hiển thị lời giải"
         },
         {
-          "label": "Text for \"Retry\" button",
-          "default": "Retry"
+          "label": "Văn bản cho nút \"Thử lại\"",
+          "default": "Thử lại"
         },
         {
-          "label": "Wrong Answer",
-          "default": "Wrong answer"
+          "label": "Trả lời sai",
+          "default": "Trả lời sai"
         },
         {
-          "label": "Correct Answer",
-          "default": "Correct answer"
+          "label": "Câu trả lời đúng",
+          "default": "Câu trả lời đúng"
         },
         {
-          "label": "Textual representation of the score bar for those using a readspeaker",
-          "default": "You got :num out of :total points"
+          "label": "Trình bày văn bản của thanh điểm cho những người sử dụng bộ đọc",
+          "default": "Bạn đã nhận :num trong :total điểm"
         }
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Cài đặt hành vi",
+      "description": "Các tùy chọn này sẽ cho phép bạn kiểm soát cách thức thực hiện tác vụ.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "Kích hoạt nút \"Thử lại\""
         },
         {
-          "label": "Enable \"Show Solution\" button"
+          "label": "Bật \"Hiển thị nút\" Lời giải"
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "Kích hoạt nút \"Kiểm tra\""
+		},
+        {
+          "label": "Vô hiệu hóa thu phóng hình ảnh"
         },
         {
-          "label": "Show confirmation dialog on \"Check\""
+          "label": "Hiển thị hộp thoại xác nhận trên \"Kiểm tra\""
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Hiển thị hộp thoại xác nhận trên \"Thử lại\""
         },
         {
-          "label": "Automatically check answer",
-          "description": "Note that accessibility will suffer if enabling this option"
+          "label": "Tự động kiểm tra câu trả lời",
+          "description": "Lưu ý rằng khả năng truy cập sẽ bị ảnh hưởng nếu bật tùy chọn này"
         },
         {
-          "label": "Feedback on correct answer",
-          "description": "This will override the default feedback text. Variables available: @score and @total"
+          "label": "Phản hồi về câu trả lời đúng",
+          "description": "Điều này sẽ ghi đè văn bản phản hồi mặc định. Các biến có sẵn: @score và @total "
         },
         {
-          "label": "Feedback on wrong answer",
-          "description": "This will override the default feedback text. Variables available: @score and @total"
+          "label": "Phản hồi về câu trả lời sai",
+          "description": "Điều này sẽ ghi đè văn bản phản hồi mặc định. Các biến có sẵn: @score và @total "
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Hộp thoại xác nhận kiểm tra",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Finish ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Kết thúc?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to finish ?"
+          "label": "Văn bản nội dung",
+          "Mặc định": "Bạn có chắc chắn muốn kết thúc?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Finish"
+          "label": "Nhãn nút xác nhận",
+          "default": "Kết thúc"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Hộp thoại xác nhận thử lại",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Retry ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Thử lại?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to retry ?"
+          "label": "Văn bản nội dung",
+          "default": "Bạn có chắc chắn muốn thử lại không?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Confirm"
+          "label": "Nhãn nút xác nhận",
+          "default": "Xác nhận"
         }
       ]
     }
